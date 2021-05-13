@@ -1,0 +1,53 @@
+{
+	"pageTextData": [{
+			"title": "Coca Cola Great Britain",
+			"subtitle": "Founded in 1886 Dr John S Pemberton",
+			"description": "The Coca Cola Company is the world's leading manufacturer, marketer and distributor of non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands."
+		},
+		{
+			"title": "Coca Cola",
+			"subtitle": "New York Harbour, 1886",
+			"description": "Coca-Cola Original Taste is the world’s favourite soft drink and has been enjoyed since 1886. You can find Coca-Cola Original Taste in a variety of sizes to suit every lifestyle and occasion.            "
+		},
+		{
+			"title": "Sprite",
+			"subtitle": "West Germany, 1959",
+			"description": "First introduced in 1961, crisp, refreshing, clean-tasting Sprite is now the world's leading lemon and lime flavoured soft drink and is sold in more than 190 different countries.            "
+		},
+		{
+			"title": "Fanta",
+			"subtitle": "Italy, 1940",
+			"description": "Bright, bubbly and a popular favourite, Fanta is a soft drink with a tingly, fruity taste. It’s made with 5% juice. The new formula delivers our ‘best Fanta taste ever’.            "
+		},
+		{
+			"x3dModelTitle": "Coca Cola X3D Model",
+			"x3dCreationMethod": "This X3D model of the coke can has been created in 3ds Max, exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online.",
+			"title": "History of Coca Cola",
+			"subtitle": "Atlanta Beginnings",
+			"description": "It was 1886, and in New York Harbour, workers were constructing the Statue of Liberty. Eight hundred miles away, another great American symbol was about to be unveiled. Like many people who change history, John Pemberton, an Atlanta pharmacist, was inspired by simple curiosity. One afternoon, he stirred up a fragrant, caramel-coloured liquid and, when it was done, he carried it a few doors down to Jacobs' Pharmacy. Here, the mixture was combined with carbonated water and sampled by customers who all agreed - this new drink was something special. So Jacobs' Pharmacy put it on sale for five cents (about 3p) a glass."
+		},
+		{
+			"x3dModelTitle": "Sprite X3D Model",
+			"x3dCreationMethod": "This X3D model of the sprite bottle has been created in 3ds Max, exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online. ",
+			"title": "Sprite - Fanta Klare Zitrone",
+			"subtitle": "First introduced in 1961",
+			"description": "Crisp, refreshing and clean-tasting, Sprite is the world’s leading lemon and lime-flavoured soft drink. It first hit shop shelves back in 1961 and today it’s sold in more than 190 countries. In 2013, we changed the recipe for Sprite. By adding stevia plant extract, a zero-calorie sweetener from the stevia plant, we’ve been able to reduce the drink’s calorie and sugar content by 37% compared to it’s previous recipe. "
+		},
+		{
+			"x3dModelTitle": "Fanta X3D Model",
+			"x3dCreationMethod": "This X3D model of the fanta cup has been created in 3ds Max, exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online. ",
+			"title": "Fanta - Orange Freshness",
+			"subtitle": "90 unique flavours",
+			"description": "Bright, bubbly and a popular favourite, Fanta is a soft drink with a tingly, fruity taste. It’s made with 5% juice. As part of our ongoing commitment to reduce the calories in some of our most popular drinks, in April 2017 we launched our lower sugar recipe for Fanta Orange. The new formula has benefited a 2.1g reduction in sugar per 100ml and delivers our ‘best Fanta taste ever’*. First introduced in 1940, Fanta is the second oldest brand of The Coca-Cola Company. All in all, there are more than 90 flavours of Fanta globally! "
+		},
+		{
+			"galleryTitle": "3D Images",
+			"galleryDescription": "These 3D images of the Coke can, Sprite bottle and Fanta cup were rendered in 3ds Max 2019 with Mental Ray"
+		},
+		{
+			"CameraTitle": "Camera Views",
+			"CameraSubtitle": "These buttons select a range of X3D model viewpoints"
+		}
+
+	]
+}
