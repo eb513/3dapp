@@ -1,0 +1,421 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- X3dom -->    
+    <link rel='stylesheet' type='text/css' href='css/x3dom.css'>    
+    <!-- Include the x3dom JavaScript -->    
+    <script type='text/javascript' src='js/x3dom.js'></script>
+
+    <link rel="stylesheet" href="css/custom.css">
+
+    <script src="https://kit.fontawesome.com/6ac3910c4e.js" crossorigin="anonymous"></script>
+
+    <title>Coca Cola 3D App template</title>
+</head>
+<body id="body">
+    <nav id="header" class="navbar sticky-top navbar-expand-sm navbar_coca_cola"><div class="container">
+        <!-- Brand -->
+        <div class="logo">
+            <a class="navbar-brand" href="javascript:swap('home')">
+                <h1>1</h1>
+                <h1>oca</h1>
+                <h2>Cola</h2>
+                <h3>Journey</h3>
+                <p>Refreshing the world, one story at a time</p>
+            </a>
+        </div>
+      
+        <!-- Collapsable Navbar Menu Icon -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Links -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="javascript:swap('home')">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+        
+            <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Drinks
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="javascript:swap('coke')">Coca Cola</a>
+                        <a class="dropdown-item" href="javascript:swap('sprite')">Sprite</a>
+                        <a class="dropdown-item" href="javascript:swap('fanta')">Fanta</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div></nav>
+    
+
+    <div id="home" class="container main_contents">
+
+        <br>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="main_3d_image">
+                    <div id="main_text" class="col-xs-12 col-sm-4">
+                        <h2>Coca Cola Great Britain</h2>
+                        <h3>Founded in 1886 by pharmacist Dr John S Pemberton</h3>
+                        <p>The Coca‑Cola Company is the world's leading manufacturer, marketer and distributor of 
+                            non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <!-- Coca Cola -->
+            <div class="col-xs-12 col-sm-4">
+                <div class="card">
+                    <a href="javascript:swap('coke')">
+                        <img class="card-img-top img-fluid img-thumbnail" src="assets/images/coca_cola.jpg" alt="Coca Cola">
+                    </a>
+                    <div class="card-body">
+                        <h3 class="card-title">Coca Cola</h3>
+                        <p class="card-text">Coca-Cola Original Taste is the world’s favourite soft drink and has been enjoyed since 1886. 
+                            You can find Coca-Cola Original Taste in a variety of sizes to suit every lifestyle and occasion.</p>
+                        <a href="javascript:swap('coke')" class="btn btn-primary">Find out more ...</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sprite -->
+            <div class="col-xs-12 col-sm-4">
+                <div class="card">
+                    <a href="javascript:swap('sprite')">
+                        <img class="card-img-top img-fluid img-thumbnail" src="assets/images/sprite.jpg" alt="Sprite">
+                    </a>
+                    <div class="card-body">
+                        <h3 class="card-title">Sprite</h3>
+                        <p class="card-text">First introduced in 1961, crisp, refreshing, clean-tasting Sprite 
+                            is now the world's leading lemon and lime flavoured soft drink and is sold in more than 190 different countries.</p>
+                        <a href="javascript:swap('sprite')" class="btn btn-primary">Find out more ...</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fanta -->
+            <div class="col-xs-12 col-sm-4">
+                <div class="card">
+                    <a href="javascript:swap('fanta')">
+                        <img class="card-img-top img-fluid img-thumbnail" src="assets/images/fanta.jpg" alt="Fanta">
+                    </a>
+                    <div class="card-body">
+                        <h3 class="card-title">Fanta</h3>
+                        <p class="card-text">Bright, bubbly and a popular favourite, Fanta is a soft drink with a tingly, fruity taste. 
+                            It’s made with 5% juice. The new formula delivers our ‘best Fanta taste ever’.</p>
+                        <a href="javascript:swap('fanta')" class="btn btn-primary">Find out more ...</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+
+    <div id="coke" class="container-fluid main_contents" style="display: none;">
+        <div class="row">
+            <div class="col-sm-9">
+                <div class="card-text-left">
+                    <div class="card-header">
+                        <ul class="nav nav-tabs card-header-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="javascript:swap('coke')">Coke</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:swap('sprite')">Sprite</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:swap('fanta')">Fanta</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title">Coca Cola X3D Model</h4>
+                        
+                        <!-- <div id="main_3d_image"></div> -->
+                        <div class="model3D">
+                            <x3d>
+                                <scene>
+                                    <inline url="assets/x3d/coke.x3d"></inline>
+                                </scene>
+                            </x3d>
+                        </div>
+
+                        <p class="card-text">This X3D model of the coke can has been created in 3ds Max,
+                            exported to VRML97 and converted, using the instantreality transcoders, to X3D for
+                            display online.
+                        </p>
+                        <h5 class="card-subtitle">Camera Views</h5>                  
+                        <div class="camera-btns">                      
+                            <p class="card-text">These buttons select a range of X3D model viewpoints</p>
+                            <div class="btn-group ">                          
+                                <a href="#" class="btn btn-primary btn-responsive camera-font">Front</a>                          
+                                <a href="#" class="btn btn-secondary btn-responsive camera-font">Back</a>                          
+                                <a href="#" class="btn btn-success btn-responsive camera-font">Left</a>                          
+                                <a href="#" class="btn btn-danger btn-responsive camera-font">Right</a>                          
+                                <a href="#" class="btn btn-warning btn-responsive camera-font">Top</a>                          
+                                <a href="#" class="btn btn-outline-dark disabled btn-responsive camera-font">Off</a>                     
+                            </div>                  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card text-left">
+                    <div class="card-header">
+                        Gallery
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">3D Image Gallery</h4>
+                        <div class="gallery" id="gallery_coke"></div>
+                        <p class="card-text">3D images rendered in 3ds Max 2017 with Mental Ray</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Coca Cola -->
+            <div class="col-xs-12 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Coca Cola</h3>
+                        <p class="card-text">Atlanta Beginnings: It was 1886, and in New York Harbour, workers were 
+                            constructing the Statue of Liberty. Eight hundred miles away, another great American symbol 
+                            was about to be unveiled.
+                            Like many people who change history, John Pemberton, an Atlanta pharmacist, was inspired by 
+                            simple curiosity. One afternoon, he stirred up a fragrant, caramel-coloured liquid and, when 
+                            it was done, he carried it a few doors down to Jacobs' Pharmacy. Here, the mixture was 
+                            combined with carbonated water and sampled by customers who all agreed - this new drink was 
+                            something special. So Jacobs' Pharmacy put it on sale for five cents (about 3p) a glass.</p>    
+                        <a href="#" class="btn btn-primary">Find out more ...</a>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+    <div id="sprite" class="container-fluid main_contents" style="display: none;">
+        <div class="row">
+            <div class="col-sm-9">
+                <div class="card-text-left">
+                    <div class="card-header">
+                        <ul class="nav nav-tabs card-header-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:swap('coke')">Coke</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="javascript:swap('sprite')">Sprite</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:swap('fanta')">Fanta</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title">Sprite X3D Model</h4>
+                        
+                        <!-- <div id="main_3d_image"></div> -->
+                        <div class="model3D">
+                            <x3d>
+                                <scene>
+                                    <inline url="assets/x3d/sprite.x3d"></inline>
+                                </scene>
+                            </x3d>
+                        </div>
+
+                        <p class="card-text">This X3D model of the coke can has been created in 3ds Max,
+                            exported to VRML97 and converted, using the instantreality transcoders, to X3D for
+                            display online.
+                        </p>
+                        <h5 class="card-subtitle">Camera Views</h5>                  
+                        <div class="camera-btns">                      
+                            <p class="card-text">These buttons select a range of X3D model viewpoints</p>
+                            <div class="btn-group ">                          
+                                <a href="#" class="btn btn-primary btn-responsive camera-font">Front</a>                          
+                                <a href="#" class="btn btn-secondary btn-responsive camera-font">Back</a>                          
+                                <a href="#" class="btn btn-success btn-responsive camera-font">Left</a>                          
+                                <a href="#" class="btn btn-danger btn-responsive camera-font">Right</a>                          
+                                <a href="#" class="btn btn-warning btn-responsive camera-font">Top</a>                          
+                                <a href="#" class="btn btn-outline-dark disabled btn-responsive camera-font">Off</a>                     
+                            </div>                  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card text-left">
+                    <div class="card-header">
+                        Gallery
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">3D Image Gallery</h4>
+                        <div class="gallery" id="gallery_sprite"></div>
+                        <p class="card-text">3D images rendered in 3ds Max 2017 with Mental Ray</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Coca Cola -->
+            <div class="col-xs-12 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Sprite</h3>
+                        <p class="card-text">Crisp, refreshing and clean-tasting, 
+                            Sprite is the world’s leading lemon and lime-flavoured soft drink. 
+                            It first hit shop shelves back in 1961 and today it’s sold in more than 190 countries.
+                            In 2013, we changed the recipe for Sprite. By adding stevia plant extract, 
+                            a zero-calorie sweetener from the stevia plant, we’ve been able to reduce the drink’s 
+                            calorie and sugar content by 37% compared to it’s previous recipe. </p>    
+                        <a href="#" class="btn btn-primary">Find out more ...</a>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+    <div id="fanta" class="container-fluid main_contents" style="display: none;">
+        <div class="row">
+            <div class="col-sm-9">
+                <div class="card-text-left">
+                    <div class="card-header">
+                        <ul class="nav nav-tabs card-header-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:swap('coke')">Coke</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:swap('sprite')">Sprite</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="javascript:swap('fanta')">Fanta</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title">Fanta X3D Model</h4>
+                        
+                        <!-- <div id="main_3d_image"></div> -->
+                        <div class="model3D">
+                            <x3d>
+                                <scene>
+                                    <inline url="assets/x3d/fanta.x3d"></inline>
+                                </scene>
+                            </x3d>
+                        </div>
+
+                        <p class="card-text">This X3D model of the coke can has been created in 3ds Max,
+                            exported to VRML97 and converted, using the instantreality transcoders, to X3D for
+                            display online.
+                        </p>
+                        <h5 class="card-subtitle">Camera Views</h5>                  
+                        <div class="camera-btns">                      
+                            <p class="card-text">These buttons select a range of X3D model viewpoints</p>
+                            <div class="btn-group ">                          
+                                <a href="#" class="btn btn-primary btn-responsive camera-font">Front</a>                          
+                                <a href="#" class="btn btn-secondary btn-responsive camera-font">Back</a>                          
+                                <a href="#" class="btn btn-success btn-responsive camera-font">Left</a>                          
+                                <a href="#" class="btn btn-danger btn-responsive camera-font">Right</a>                          
+                                <a href="#" class="btn btn-warning btn-responsive camera-font">Top</a>                          
+                                <a href="#" class="btn btn-outline-dark disabled btn-responsive camera-font">Off</a>                     
+                            </div>                  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card text-left">
+                    <div class="card-header">
+                        Gallery
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">3D Image Gallery</h4>
+                        <div class="gallery" id="gallery_fanta"></div>
+                        <p class="card-text">3D images rendered in 3ds Max 2017 with Mental Ray</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Coca Cola -->
+            <div class="col-xs-12 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Fanta</h3>
+                        <p class="card-text">Bright, bubbly and a popular favourite, 
+                            Fanta is a soft drink with a tingly, fruity taste. 
+                            It’s made with 5% juice. As part of our ongoing commitment 
+                            to reduce the calories in some of our most popular drinks, 
+                            in April 2017 we launched our lower sugar recipe for Fanta Orange. 
+                            The new formula has benefited a 2.1g reduction in sugar per 100ml 
+                            and delivers our ‘best Fanta taste ever’*. First introduced in 1940, 
+                            Fanta is the second oldest brand of The Coca-Cola Company. 
+                            All in all, there are more than 90 flavours of Fanta globally!
+
+                        </p>    
+                        <a href="#" class="btn btn-primary">Find out more ...</a>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+    <nav id="footer" class="footer navbar navbar-expand-sm navbar_coca_cola">
+        <div class="container">
+            <div class="navbar-text float-left copyright">
+                <p>
+                    <span class="align-baseline"></span>&copy 2019 Mobile Web 3D Applications |
+                    <a href="javascript:changeLook();">Restyle</a> |
+                    <a href="javascript:changeBack();">Reset</a>
+                </p>
+            </div>
+            <div class="navbar-text float-right social">
+                <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#"><i class="fab fa-google-plus fa-2x"></i></a>
+                <a href="#"><i class="fab fa-github-square fa-2x"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Optional JavaScript -->    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/gallery_generator.js"></script>
+    <script src="js/swap_restyle.js"></script>
+</body>
+</html>
